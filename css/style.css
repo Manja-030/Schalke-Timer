@@ -1,0 +1,42 @@
+
+body {
+  background-color: #262626;
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.timer {
+  font-size: 60px;
+  color: white;
+}
+
+.button {
+  background-color: #0645ad;
+  color: white;
+  width: 30%;
+  height: auto;
+  padding: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  transition: 0.2s; 
+}
+
+.button:hover {
+  background-color:rgb(65, 90, 172);
+}
