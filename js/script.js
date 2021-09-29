@@ -1,3 +1,5 @@
+let alarm = new Audio("alarm.mp3");
+
 function startTimer() {
   
   let startTime = new Date().getTime();
@@ -17,7 +19,9 @@ function startTimer() {
       let text = "0" + minutes + ":" + seconds;
       document.getElementById("timer").innerHTML = text;
     } else {
+      alarm.play();
       document.getElementById("timer").innerHTML = "00:00";
+
     }
 
   }, 1000);
